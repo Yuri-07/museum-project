@@ -1,0 +1,126 @@
+
+
+.BG_header {
+  width: 100%;
+  height: 150px;
+  background-color: #030303;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+}
+
+.BG_main {
+  width: 100%;
+  height: 842px;
+  background-color: #030303;
+  position: relative;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  width: 1440px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: absolute;
+  top: 59px;
+  left: 0;
+  width: 199px;
+  height: 33px;
+}
+
+.nav{
+  position: absolute;
+  top: 62px;
+  left: 665px;
+  width: 775px;
+  height: 26px;
+}
+
+.navigation{
+  display: flex;
+  gap: 55px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li a {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navigation li a:hover {
+  color: #CCCCCC;
+}
+
+.welcom_louvre {
+  font-family: 'Forum', serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  width: 593px;
+  height: 180px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Forum';
+  src: url('./assets/fonts/Forum-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.welcom_text{
+    width: 598px;
+    height: 388px;
+}
+
+.welcom_castle{
+  position: absolute;
+  top: 205px;
+}
+
+.welcom_button{
+  position: absolute;
+  top: 313px;
+}
+
+.welcom_painting{
+    width: 1000px;
+    height: 810px;
+    left: 440px;
+}
+
+.welcom {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+}
+
+.BG_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1440px;
+  height: 810px;
+  background-color: #030303;
+}
